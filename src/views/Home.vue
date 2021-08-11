@@ -206,7 +206,7 @@
           </div>
         </div>
       </div>
-      <div class="contact-flexitem2">
+      <form class="contact-flexitem2">
         <div class="contact-flexitem2-first">
           <div class="email-icon">
             <img src="../assets/email.svg" alt="" />
@@ -218,25 +218,25 @@
         </div>
         <div class="contact-flexitem2-second">
           <div class="contact-flexitem2-second-input">
-            <p class="input-text">Enter Name</p>
+            <input type="text" class="input-text" placeholder="Enter Name">
           </div>
           <div class="contact-flexitem2-second-input">
-            <p class="input-text">Enter Email</p>
+            <input type="text" class="input-text" placeholder="Enter Email">
           </div>
         </div>
         <div class="contact-flexitem2-second">
           <div class="contact-flexitem2-second-input">
-            <p class="input-text">Enter Company Name</p>
+            <input type="text" class="input-text" placeholder="Enter Company Name">
           </div>
           <div class="contact-flexitem2-second-input">
-            <p class="input-text">Enter Phone Number</p>
+            <input type="text" class="input-text" placeholder="Enter Phone Number">
           </div>
         </div>
         <div class="contact-flexitem2-third">
-          <p class="input-text">Describe what you're building</p>
+          <input type="text" class="input-text-last" placeholder="Describe what you're building">
         </div>
         <button class="contact-flexitem2-btn">Send</button>
-      </div>
+      </form>
     </div>
 
     <Footer />
@@ -515,8 +515,8 @@ body {
 .values-tab > h2 {
   position: absolute;
   left: 9.5em;
-  top: 5em;
-  transform: rotateX();
+  top: 4.5em;
+  transform: rotate(-22deg);
   font-family: "Noto Sans";
   font-weight: 800;
   font-size: 36px;
@@ -654,6 +654,7 @@ body {
 }
 
 .third-text {
+  max-width: 570px;
   font-family: "Noto Sans";
   font-weight: 600;
   font-size: 16px;
@@ -765,39 +766,44 @@ body {
   margin-bottom: 50px;
 }
 
-.contact-flexitem2-second-input {
+.input-text {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  color: #959499;
+  padding: 12px 11px 12px 11px;
+  transition: color 0.5s;
   width: 322px;
   height: 48px;
   border: 1px solid rgba(39, 39, 100, 0.5);
   box-sizing: border-box;
   border-radius: 4px;
-  transition: border 0.5s;
-}
-
-.contact-flexitem2-second-input:hover {
-  border: 1px solid #353686;
-}
-
-.input-text {
-  font-family: "Noto Sans";
-  font-weight: 500;
-  font-size: 16px;
-  color: #959499;
-  padding: 12px 0 24px 11px;
-  transition: color 0.5s;
+  outline: none;
 }
 
 .input-text:hover {
   color: #353686;
+  border: 1px solid #353686;
 }
 
-.contact-flexitem2-third {
+.input-text-last {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 14px;
+  color: #959499;
+  padding: 12px 11px 12px 11px;
   width: 689px;
   height: 141px;
   border: 1px solid rgba(39, 39, 100, 0.5);
+  outline: none;
   box-sizing: border-box;
   border-radius: 4px;
   margin-bottom: 34px;
+}
+
+.input-text-last:hover {
+  color: #353686;
+  border: 1px solid #353686;
 }
 
 .contact-flexitem2-btn {
@@ -809,6 +815,8 @@ body {
   font-size: 16px;
   color: #ffffff;
   border: none;
+  cursor: pointer;
+  margin-bottom: 40px;
 }
 
 

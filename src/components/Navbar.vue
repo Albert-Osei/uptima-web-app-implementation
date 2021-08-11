@@ -42,6 +42,7 @@ export default {
     font-weight: normal;
     font-size: 16px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .navbar-btn {

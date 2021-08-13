@@ -339,6 +339,7 @@ body {
   font-family: "Noto Sans";
   font-weight: normal;
   font-size: 16px;
+  line-height: 221.2%;
   color: #a4a4a4;
   max-width: 500px;
   margin: 21px 0 42px 0;
@@ -388,6 +389,7 @@ body {
   font-family: "Noto Sans";
   font-weight: normal;
   font-size: 16px;
+  line-height: 221.2%;
   color: #a4a4a4;
   max-width: 600px;
 }
@@ -433,6 +435,7 @@ body {
   font-family: "Noto Sans";
   font-weight: normal;
   font-size: 16px;
+  line-height: 189.7%;
   color: #a4a4a4;
   text-align: center;
 }
@@ -516,7 +519,7 @@ body {
   position: absolute;
   left: 9.5em;
   top: 4.5em;
-  transform: rotate(-22deg);
+  transform: rotate(-24deg);
   font-family: "Noto Sans";
   font-weight: 800;
   font-size: 36px;
@@ -568,6 +571,7 @@ body {
   font-family: "Noto Sans";
   font-weight: normal;
   font-size: 16px;
+  line-height: 200%;
   color: #a4a4a4;
   max-width: 251px;
 }
